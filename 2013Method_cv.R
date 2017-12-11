@@ -97,7 +97,7 @@ Beta_o <- Beta
 M_o <- M
 targets_o <- targets
 
-for(j in 101:200){
+for(j in 1:100){
   cat(paste(j, "\n", sep = ""))
   picked <- sample(c(1:nrow(targets_o)), round(nrow(targets_o)*2/3, 0))
   Beta <- Beta_o[,picked]
@@ -142,7 +142,6 @@ for(j in 101:200){
 }
 
 saveRDS(candidates, "../Results/updated/cv_2013method_LUSC.rds")
-#saveRDS(candidates, "../Results/updated/cv_2013method_LUSC_200.rds")
 
 
 
