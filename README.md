@@ -2,18 +2,18 @@
 DNA methylation workflow, from beta-values to signatures  
 
 This workflow contains 4 modules.
-1. Normalization
+1. **Normalization**
     - Normalization.R
-2. DMP & DMR
+2. **DMP & DMR**
     - DMP_DMR.R
     - 2013Method.R & 2013Method_cv.R  
     
 　Test the methods in *Exploring genome-wide DNA methylation profiles altered in hepatocellular carcinoma using Infinium HumanMethylation 450 BeadChips. Epigentics 2013*.  
     
 　By using the methods, the hyper/hypo-methylated sites can be distinguished from DMPs. The dmrcate function was re-defined and the number of hyper/hypo-methylated sites covered by each DMR are also a part of the output now.  
-3. Random Forests
+3. **Random Forests**
     - RFBoot.R
-4. Lasso
+4. **Lasso**
     - Lasso.R
  
 # Instructions
