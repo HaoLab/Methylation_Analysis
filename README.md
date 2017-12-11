@@ -30,7 +30,6 @@ This workflow contains 4 modules.
 2017-12-11
 
 Uploaded new scripts for testing the methods in *Exploring genome-wide DNA methylation profiles altered in hepatocellular carcinoma using Infinium HumanMethylation 450 BeadChips. Epigentics 2013*.
-* By using the methods, the hyper/hypo-methylated sites can be distinguished from DMPs. The dmrcate function was re-defined and the number of hyper/hypo-methylated sites covered by each DMR are also a part of the output now.
 
 
 ################################################
